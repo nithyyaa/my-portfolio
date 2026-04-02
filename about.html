@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nithyasree | About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    :root { --rose: #fd8a8a; --rose-light: #fce8e8; --rose-dark: #e06060; --teal: #a8d1d1; --cream: #fdf6f0; --muted: #6c757d; }
+    * { font-family: 'Poppins', sans-serif; }
+    body { background: var(--cream); }
+    .navbar { background: #fff !important; box-shadow: 0 2px 20px rgba(253,138,138,0.15); }
+    .navbar-brand { color: var(--rose) !important; font-weight: 800; }
+    .nav-link { color: var(--muted) !important; font-weight: 500; font-size: 0.9rem; padding: 8px 14px !important; border-radius: 50px; transition: all 0.25s; }
+    .nav-link:hover, .nav-link.active { background: var(--rose) !important; color: #fff !important; }
+    .dropdown-menu { border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 14px; }
+    .dropdown-item:hover { background: var(--rose-light); color: var(--rose-dark); }
+    .card-custom { border: none; border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); background: #fff; }
+    .profile-img { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 5px solid var(--rose); }
+    .info-item { background: var(--cream); border-radius: 12px; padding: 14px 16px; border-left: 4px solid var(--rose); }
+    .info-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+    .info-value { font-size: 0.88rem; font-weight: 600; }
+    footer { background: #fff; border-top: 1px solid var(--rose-light); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">✦ Nithyasree</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Portfolio</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="qualifications.html">Qualifications</a></li>
+            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="background:linear-gradient(135deg,#fce8e8,#d6eeee);padding:50px 0 40px;" class="text-center">
+  <h1 class="fw-800">About <span style="color:var(--rose);">Me</span></h1>
+</div>
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-4">
+        <div class="card-custom p-4 text-center">
+          <img src="profile.jpeg" alt="Nithyasree" class="profile-img mb-3" onerror="this.src='https://ui-avatars.com/api/?name=Nithyasree&size=160&background=fd8a8a&color=fff&bold=true'"/>
+          <h5 class="fw-700 mb-1">Bhaskaruni Venkata Nithyasree</h5>
+          <p class="text-muted mb-3" style="font-size:0.85rem;">B.E Information Technology</p>
+          <span class="badge rounded-pill me-1" style="background:var(--rose-light);color:var(--rose-dark);">CGPA 9.04</span>
+          <span class="badge rounded-pill" style="background:#d6eeee;color:#2a5f5f;">Second Year</span>
+          <hr style="border-color:var(--rose-light);" class="my-3"/>
+          <a href="https://github.com/nithyyaa" target="_blank" class="btn btn-sm w-100 mb-2" style="background:var(--rose);color:#fff;border-radius:50px;font-weight:600;">GitHub</a>
+          <a href="https://www.linkedin.com/in/bhaskaruni-nithya-sree/" target="_blank" class="btn btn-sm w-100" style="border:2px solid var(--teal);color:var(--teal);border-radius:50px;font-weight:600;">LinkedIn</a>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card-custom p-4 mb-4">
+          <h5 class="fw-700 mb-3" style="color:var(--rose);">Who Am I?</h5>
+          <p class="text-muted" style="line-height:1.9;font-size:0.92rem;">I'm <strong>Bhaskaruni Venkata Nithyasree</strong>, a passionate IT student at Vasavi College of Engineering, Hyderabad. I enjoy building projects with Python, Java, C, DSA, and Full Stack Web Development. I'm an enthusiastic public speaker and team player, with multiple NPTEL certifications and hackathon experience.</p>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">College</div><div class="info-value">Vasavi College of Engineering</div></div></div>
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">Degree</div><div class="info-value">B.E – Information Technology</div></div></div>
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">CGPA</div><div class="info-value">9.04 / 10.0</div></div></div>
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">Location</div><div class="info-value">Hyderabad, India</div></div></div>
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">Email</div><div class="info-value" style="font-size:0.8rem;">bvnithyasree06@gmail.com</div></div></div>
+          <div class="col-sm-6"><div class="info-item"><div class="info-label">Status</div><div class="info-value">Open to Opportunities</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="py-4 text-center text-muted">
+  <p class="mb-0">© 2026 Bhaskaruni Venkata Nithyasree · <a href="https://github.com/nithyyaa" target="_blank" style="color:var(--rose);text-decoration:none;">GitHub</a> · <a href="https://www.linkedin.com/in/bhaskaruni-nithya-sree/" target="_blank" style="color:var(--rose);text-decoration:none;">LinkedIn</a></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nithyasree | Skills</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    :root { --rose: #fd8a8a; --rose-light: #fce8e8; --rose-dark: #e06060; --teal: #a8d1d1; --cream: #fdf6f0; --muted: #6c757d; }
+    * { font-family: 'Poppins', sans-serif; }
+    body { background: var(--cream); }
+    .navbar { background: #fff !important; box-shadow: 0 2px 20px rgba(253,138,138,0.15); }
+    .navbar-brand { color: var(--rose) !important; font-weight: 800; }
+    .nav-link { color: var(--muted) !important; font-weight: 500; font-size: 0.9rem; padding: 8px 14px !important; border-radius: 50px; transition: all 0.25s; }
+    .nav-link:hover, .nav-link.active { background: var(--rose) !important; color: #fff !important; }
+    .dropdown-menu { border: none; border-radius: 14px; }
+    .dropdown-item:hover { background: var(--rose-light); color: var(--rose-dark); }
+    .card-custom { border: none; border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); background: #fff; }
+    .skill-label { display: flex; justify-content: space-between; font-size: 0.88rem; font-weight: 600; margin-bottom: 6px; }
+    .progress { height: 10px; border-radius: 10px; background: #f0f0f0; margin-bottom: 18px; }
+    .progress-bar { background: linear-gradient(90deg, var(--rose), var(--teal)); border-radius: 10px; width: 0; transition: width 1.3s ease; }
+    .list-group-item { border: none; border-bottom: 1px solid var(--rose-light); padding: 12px 16px; font-size: 0.88rem; font-weight: 500; }
+    .list-group-item:last-child { border-bottom: none; }
+    footer { background: #fff; border-top: 1px solid var(--rose-light); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">✦ Nithyasree</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Portfolio</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="qualifications.html">Qualifications</a></li>
+            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="background:linear-gradient(135deg,#fce8e8,#d6eeee);padding:50px 0 40px;" class="text-center">
+  <h1 class="fw-800">My <span style="color:var(--rose);">Skills</span></h1>
+</div>
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <div class="card-custom p-4">
+          <h5 class="fw-700 mb-4" style="color:var(--rose);">💻 Technical Skills</h5>
+          <div class="skill-label"><span>🐍 Python</span><span>90%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="90"></div></div>
+          <div class="skill-label"><span>⚙️ C Language & DSA</span><span>85%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="85"></div></div>
+          <div class="skill-label"><span>☕ Java</span><span>80%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="80"></div></div>
+          <div class="skill-label"><span>🌐 HTML / CSS / JavaScript</span><span>85%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="85"></div></div>
+          <div class="skill-label"><span>🗄️ SQL</span><span>75%</span></div>
+          <div class="progress"><div class="progress-bar" data-width="75"></div></div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="card-custom p-4">
+          <h5 class="fw-700 mb-3" style="color:var(--rose);">🌟 Soft Skills</h5>
+          <ul class="list-group list-group-flush rounded-3 overflow-hidden" style="border:1.5px solid var(--rose-light);">
+            <li class="list-group-item">🗣️ Public Speaking</li>
+            <li class="list-group-item">👑 Leadership</li>
+            <li class="list-group-item">🤝 Teamwork</li>
+            <li class="list-group-item">💬 Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="py-4 text-center text-muted">
+  <p class="mb-0">© 2026 Bhaskaruni Venkata Nithyasree · <a href="https://github.com/nithyyaa" target="_blank" style="color:var(--rose);text-decoration:none;">GitHub</a> · <a href="https://www.linkedin.com/in/bhaskaruni-nithya-sree/" target="_blank" style="color:var(--rose);text-decoration:none;">LinkedIn</a></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    setTimeout(() => {
+      document.querySelectorAll('.progress-bar').forEach(bar => { bar.style.width = bar.dataset.width + '%'; });
+    }, 200);
+  });
+</script>
+</body>
+</html>
